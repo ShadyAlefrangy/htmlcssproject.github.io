@@ -1,0 +1,141 @@
+body {
+    color: rgba(0,0,0,0.87);
+    font-family: Arial, Helvetica, "sans-serif";
+    font-size: 14px;
+    margin: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: rgba(0,0,0,0.87);
+    margin-right: 15px;;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.nav-items {
+    display: flex;
+    justify-content: flex-end;
+    
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+#sign-in {
+    background-color: #1a73e8;
+    border: 1px solid;
+    color: white;
+    margin: 0px 8px;
+    padding: 9px 23px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-box-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#search-box {
+    border: 1px solid #dfe1e5;
+    height: 44px;
+    width: 584px;
+    border-radius: 24px;
+    margin: 0 auto;
+}
+
+.input-search-field {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.button-under-search-box {
+    
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.google-offered-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.google-offered-div a {
+    color: #1a0dab;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+}
+
+.palestine-location {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    background-color: #f2f2f2;
+    
+}
+
+.last-div {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-between;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+    color: #9aa0a6;
+    display: block;
+}
+
+#input_img {
+    position:absolute;
+    padding: 13px 5px 5px 20px;
+    background: transparent;
+}
+
+#voice-icon {
+    
+    width: 24px;
+    height: 24px;
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+    
+}
